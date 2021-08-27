@@ -37,13 +37,12 @@ syn match NoteTODO           "TODO:.*"
 " Emphasis
 syn match NoteEmphasis       "\*.*\*"
 
-" Seperator
-syn match NoteSeperator      "=========================================================================="
-
 " Turn on highlighting
 hi def link NoteDirectory    Directory
 hi def link NoteComment	     Comment
 hi def link NoteString	     String
+"hi def link NoteAnswered     Structure
+"hi def link NoteQuestion     Operator
 hi def link NoteSnippet      Special
 hi def link NoteTODO         Todo
 hi def link NoteEmphasis     VisualNOS
@@ -53,7 +52,6 @@ hi def link NoteEmphasis     VisualNOS
 :hi NoteSection     guifg=DeepSkyBlue1 term=bold
 :hi NoteSubSection1 guifg=DeepSkyBlue3
 :hi NoteSubSection2 guifg=DeepSkyBlue4
-:hi NoteSeperator   guifg=MidnightBlue   guibg=RoyalBlue
 
 let b:current_syntax = "notes"
 
