@@ -1,0 +1,21 @@
+# ONLY WORKS WITH SLATE COLOR SCHEME
+
+[ this is a section title ]
+=== this is a first level header ===
+==== this is a second level header ====
+
+# this is a comment
+
+? this is an unanswered question ?
+? this is an answered question !
+
+C:\this_is_a_path
+"this is a string" and 'this is a string'
+
+=-=-=-=
+this is a snippet
+=-=-=-=
+
+TODO: This is a todo
+
+this is normal * this is emphasized * this is normal
